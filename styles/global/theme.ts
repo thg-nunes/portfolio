@@ -8,6 +8,8 @@ export const theme = {
   colors: {
     background: {
       gray700: '#161a1d',
+
+      red200: '#FA0108',
     }
   }
 }

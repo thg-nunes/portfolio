@@ -39,4 +39,8 @@ export const GlobalStyle = createGlobalStyle`
     color: inherit;
     text-decoration: none;
   }
+
+  nav ul li {
+    list-style: none;
+  }
 `
