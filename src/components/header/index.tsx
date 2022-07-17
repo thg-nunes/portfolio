@@ -24,11 +24,6 @@ export const Header = () => {
                 <li>Projetos</li>
               </a>
             </NavLink>
-            <NavLink href="/experiences" activeClassname="link-active" passHref>
-              <a>
-                <li>Experiencia</li>
-              </a>
-            </NavLink>
           </ul>
         </nav>
       </section>
