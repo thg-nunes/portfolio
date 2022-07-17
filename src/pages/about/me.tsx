@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Container } from "./styled";
 
 export default function AboutMe() {
@@ -12,11 +13,20 @@ export default function AboutMe() {
 
       <div className="description">
         <section>
-          IMH - jucema
-        </section>
-            Descrição - jucema
-          <p>Tive minha primeira oportunidade na JUCEMA, lá foi me dada a oportunidade de desenvolver dois dashboards. O objetivo era melhorar as funcionalidades já existentes, então dei início ao projeto do absoluto zero até onde está hoje, como foram as primeiras experiencias com react e com aplicações reais, pela falta de experiência acabou não ficando tão responsivo, fora isso, todos os requisitos foram atendidos com sucesso e novas implementações feitas.   </p>
+          <img src="/jucema.jpg"/>
+          <div>
+            <h1>Experiência</h1>
+            <p><span>Empresa:</span> Junta Comercial do Maranhão</p>
+            <p><span>Cargo:</span> Estagiário Front-End</p>
+            <p><span>Início:</span> 05/2021 | status: atual</p>
+            <p><span>Descrição:</span> Tive minha primeira oportunidade na JUCEMA, lá foi me dada a oportunidade de desenvolver dois dashboards. O objetivo era melhorar as funcionalidades já existentes, então dei início ao projeto do absoluto zero até onde está hoje, como foram as primeiras experiencias com react e com aplicações reais, pela falta de experiência acabou não ficando tão responsivo, fora isso, todos os requisitos foram atendidos com sucesso e novas implementações feitas.</p>
 
+            <span className="links-dashboards">
+              <a href="#">Dashboard 1</a>
+              <a href="#">Dashboard 2</a>
+            </span>
+          </div>
+        </section>
       </div>
 
       <div className="description">
@@ -34,26 +44,6 @@ export default function AboutMe() {
             Descrição - projeto
         <p>Tive minha primeira   oportunidade na JUCEMA, lá foi me dada a oportunidade de desenvolver dois dashboards. O objetivo era melhorar as funcionalidades já existentes, então dei início ao projeto do absoluto zero até onde está hoje, como foram as primeiras experiencias com react e com aplicações reais, pela falta de experiência acabou não ficando tão responsivo, fora isso, todos os requisitos foram atendidos com sucesso e novas implementações feitas.</p>
       </div>
-
-      {/* <div>
-        <h2>Experiência</h2>
-        <section>
-          <div>
-            <p>Empresa:</p>
-            <p>Junta Comercial do Maranhão</p>
-          </div>
-          <div>
-            <p>Cargo:</p>
-            <p>Estagiário</p>
-          </div>
-          <div>
-            <p>Descrição:</p>
-            <p>Tive minha primeira oportunidade na JUCEMA, lá foi me dada a oportunidade de desenvolver dois dashboards. O objetivo era melhorar as funcionalidades já existentes, então dei início ao projeto do absoluto zero até onde está hoje, como foram as primeiras experiencias com react e com aplicações reais, pela falta de experiência acabou não ficando tão responsivo, fora isso, todos os requisitos foram atendidos com sucesso e novas implementações feitas.</p>
-            <a href="http://estatisticas.jucema.ma.gov.br/estatisticas/empresas-abertas">Link</a>
-          </div>
-        </section>
-
-      </div> */}
     </Container>
   )
 }
